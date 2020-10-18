@@ -20,7 +20,7 @@ public class CdPlayerTest extends TestCase {
     public final SystemOutRule log = new SystemOutRule().enableLog();
 
     @Autowired
-    private MediaPlayer cdPlayer;
+    private MediaPlayer cdPlayer; // Spring will create an instance of CdPlayer
 
     @Test
     public void testCdPlayerWithSpring() {
