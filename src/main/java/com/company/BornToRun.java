@@ -1,5 +1,8 @@
 package com.company;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BornToRun implements CompactDisc {
 
     private String title = "Born to Run";
